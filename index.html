@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>GeoPocket: telefonda GIS görüntüleyici, düzenleyici ve dönüştürücü</title>
+<meta name="description" content="Shapefile, GeoPackage, GeoJSON, KML, KMZ, DWG, DXF, Netcad NCZ, CSV, Excel ve PDF dosyalarını iPhone ve Android'de açın; alan ve koordinat ölçün, öznitelikleri inceleyin, düzenleyin ve formatlar arasında dönüştürün.">
+<link rel="canonical" href="https://vecihiasim.github.io/geopocket/">
+<link rel="alternate" hreflang="tr" href="https://vecihiasim.github.io/geopocket/">
+<link rel="alternate" hreflang="en" href="https://vecihiasim.github.io/geopocket/en/">
+<link rel="alternate" hreflang="x-default" href="https://vecihiasim.github.io/geopocket/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="GeoPocket: telefonda GIS görüntüleyici, düzenleyici ve dönüştürücü">
+<meta property="og:description" content="Shapefile, GeoPackage, GeoJSON, KML, KMZ, DWG, DXF, Netcad NCZ, CSV, Excel ve PDF dosyalarını iPhone ve Android'de açın; alan ve koordinat ölçün, öznitelikleri inceleyin, düzenleyin ve formatlar arasında dönüştürün.">
+<meta property="og:url" content="https://vecihiasim.github.io/geopocket/">
+<meta property="og:image" content="https://vecihiasim.github.io/geopocket/img/icon-192.png">
+<meta name="theme-color" content="#1e1a4d">
+<link rel="icon" type="image/png" sizes="64x64" href="img/icon-64.png">
+<link rel="apple-touch-icon" href="img/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">İçeriğe geç</a>
+<div class="sheet">
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="index.html"><img src="img/icon-64.png" alt="" width="36" height="36">GeoPocket</a>
+  <nav aria-label="Formatlar"><a href="#formatlar">Formatlar</a><a href="#araclar">Araçlar</a><a href="#fiyatlar">Fiyatlar</a><a href="destek.html">Destek</a><a class="lang" href="../index.html" hreflang="en" lang="en">English</a></nav>
+</div></header>
+<div class="frame"><span class="tick w">41°04′ K</span><span class="tick n">28°15′ D</span>
+<div class="wrap hero">
+  <div class="hero-text">
+    <h1>GIS verinizi sahada açın, ölçün, düzenleyin.</h1>
+    <p class="lede">GeoPocket, <strong>Shapefile, GeoPackage, GeoJSON, KML/KMZ, DWG/DXF, Netcad NCZ, CSV/Excel ve PDF</strong> dosyalarını telefonda katmanlarıyla, öznitelikleriyle ve koordinat sistemiyle açar. Dosyalarınız hiçbir sunucuya gönderilmez.</p>
+    <div class="stores">
+      <span class="store"><small>Yakında</small><b>App Store</b></span>
+      <span class="store"><small>Yakında</small><b>Google Play</b></span>
+    </div>
+  </div>
+  <div class="hero-phones">
+    <div class="phone back"><img src="img/tr/ncz_koordinat.webp" alt="Aplikasyon projesinde A1 noktasının koordinatları" width="624" height="1350" loading="lazy" decoding="async"></div>
+    <div class="phone front"><img src="img/tr/geojson.webp" alt="AVM zemin kat haritasında bir mağazanın öznitelikleri" width="624" height="1350" loading="lazy" decoding="async"></div>
+  </div>
+</div></div>
+</div>
+<main id="main">
+<section class="band" id="formatlar"><div class="wrap">
+  <div class="head"><h2>Her format, kendi verisiyle</h2><p>Aşağıdaki görüntülerin her biri uygulamanın kendisinden alındı; veriler örnek amaçlı hazırlandı. Bir formatı seçin.</p></div>
+  <div class="atlas">
+    <div class="legend" role="tablist" aria-label="Formatlar"><button role="tab" id="f-gpkg" aria-controls="p-gpkg" aria-selected="true"><span class="sw" style="--c:var(--road)" aria-hidden="true"></span><b>GeoPackage ve Shapefile</b><span class="ext">.gpkg, .shp, .zip</span></button><button role="tab" id="f-geojson" aria-controls="p-geojson" aria-selected="false"><span class="sw" style="--c:var(--parcel)" aria-hidden="true"></span><b>GeoJSON</b><span class="ext">.geojson, .json</span></button><button role="tab" id="f-kmz" aria-controls="p-kmz" aria-selected="false"><span class="sw" style="--c:var(--building)" aria-hidden="true"></span><b>KML ve KMZ</b><span class="ext">.kml, .kmz</span></button><button role="tab" id="f-dxf" aria-controls="p-dxf" aria-selected="false"><span class="sw line" style="--c:var(--ink)" aria-hidden="true"></span><b>DWG ve DXF</b><span class="ext">.dwg, .dxf</span></button><button role="tab" id="f-ncz" aria-controls="p-ncz" aria-selected="false"><span class="sw pt" style="--c:var(--building)" aria-hidden="true"></span><b>Netcad NCZ</b><span class="ext">.ncz</span></button><button role="tab" id="f-csv" aria-controls="p-csv" aria-selected="false"><span class="sw pt" style="--c:var(--farm)" aria-hidden="true"></span><b>CSV ve Excel</b><span class="ext">.csv, .xlsx</span></button><button role="tab" id="f-pdf" aria-controls="p-pdf" aria-selected="false"><span class="sw" style="--c:var(--muted)" aria-hidden="true"></span><b>PDF</b><span class="ext">.pdf</span></button></div>
+    <div><div class="plate" role="tabpanel" id="p-gpkg" aria-labelledby="f-gpkg" tabindex="0"><div class="plate-phones"><div class="phone"><img src="img/tr/gpkg.webp" alt="GeoPackage ve Shapefile" width="624" height="1350" loading="lazy" decoding="async"></div><div class="phone"><img src="img/tr/gpkg_katmanlar.webp" alt="GeoPackage ve Shapefile" width="624" height="1350" loading="lazy" decoding="async"></div></div><div><h3>GeoPackage ve Shapefile</h3><p>Çok katmanlı GIS projelerini olduğu gibi açın. Örnekte bir alışveriş merkezinin zemin katı var: mağaza, yeme içme, hizmet ve ortak alan poligonları ile giriş, asansör ve ATM noktaları, her biri ayrı katman.</p><ul><li>Katmanları tek tek açın, kapatın, rengini değiştirin</li><li>Başka bir dosyadan katman ekleyin</li><li>Shapefile'ı .shp olarak ya da .shp, .dbf, .shx, .prj içeren ZIP olarak açın</li><li>Koordinat sistemi .prj ve GeoPackage'dan okunur</li></ul></div></div><div class="plate" role="tabpanel" id="p-geojson" aria-labelledby="f-geojson" tabindex="0"><div class="plate-phones"><div class="phone"><img src="img/tr/geojson.webp" alt="GeoJSON" width="624" height="1350" loading="lazy" decoding="async"></div><div class="phone"><img src="img/tr/tablo.webp" alt="GeoJSON" width="624" height="1350" loading="lazy" decoding="async"></div></div><div><h3>GeoJSON</h3><p>QGIS'ten, bir web servisinden ya da başka bir uygulamadan gelen GeoJSON'u açın. Bir objeye dokunun: alanı, çevresi ve bütün öznitelikleri görünür; öznitelik tablosunda arayıp sıralayın.</p><ul><li>Alan m² ve hektar, çevre metre olarak</li><li>Çok parçalı geometriler ve delikli alanlar</li><li>WGS84 koordinatları TM, UTM veya enlem/boylam olarak okunur</li></ul></div></div><div class="plate" role="tabpanel" id="p-kmz" aria-labelledby="f-kmz" tabindex="0"><div class="plate-phones"><div class="phone"><img src="img/tr/kmz.webp" alt="KML ve KMZ" width="624" height="1350" loading="lazy" decoding="async"></div></div><div><h3>KML ve KMZ</h3><p>Google Earth'te hazırlanmış ada ve parsel sınırlarını, yer işaretlerini ve güzergâhları açın; OpenStreetMap ya da OpenTopoMap altlığı üzerinde inceleyin. KMZ içindeki KML kendiliğinden açılır.</p><ul><li>Yer işareti adları haritada etiket olarak</li><li>Altlık yalnızca siz seçince yüklenir</li><li>Haritadaki çizimleri KML veya KMZ olarak Google Earth'e geri gönderin</li></ul></div></div><div class="plate" role="tabpanel" id="p-dxf" aria-labelledby="f-dxf" tabindex="0"><div class="plate-phones"><div class="phone"><img src="img/tr/dxf.webp" alt="DWG ve DXF" width="624" height="1350" loading="lazy" decoding="async"></div></div><div><h3>DWG ve DXF</h3><p>AutoCAD kat planlarını, vaziyet planlarını ve krokileri telefonda açın. Katmanlar, yazılar, yaylar ve bloklar çizimdeki gibi; oda alanını ve duvar ölçülerini parmağınızla ölçün.</p><ul><li>Mesafe, alan ve çevre ölçümü, köşelere yakalanarak</li><li>Proje koordinatlı çizimleri altlık üzerinde görün</li><li>DWG salt okunur açılır; değişiklikler DXF olarak kaydedilir</li></ul></div></div><div class="plate" role="tabpanel" id="p-ncz" aria-labelledby="f-ncz" tabindex="0"><div class="plate-phones"><div class="phone"><img src="img/tr/ncz.webp" alt="Netcad NCZ" width="624" height="1350" loading="lazy" decoding="async"></div><div class="phone"><img src="img/tr/ncz_koordinat.webp" alt="Netcad NCZ" width="624" height="1350" loading="lazy" decoding="async"></div></div><div><h3>Netcad NCZ</h3><p>Netcad aplikasyon ve ölçüm dosyalarını açın. Örnekte ada 215 parsel 6 için bir aplikasyon projesi var: komşu parseller, çekme hattı, bina oturumu ve A1–A6 aplikasyon noktaları.</p><ul><li>Noktaya yakalanarak Y, X, enlem ve boylam</li><li>TM 3° ITRF96 ve ED50, tüm dilimler</li><li>Değişiklikleri yeniden NCZ olarak kaydedin (yazılar NCZ'ye aktarılmaz)</li></ul></div></div><div class="plate" role="tabpanel" id="p-csv" aria-labelledby="f-csv" tabindex="0"><div class="plate-phones"><div class="phone"><img src="img/tr/csv.webp" alt="CSV ve Excel" width="624" height="1350" loading="lazy" decoding="async"></div><div class="phone"><img src="img/tr/xlsx.webp" alt="CSV ve Excel" width="624" height="1350" loading="lazy" decoding="async"></div></div><div><h3>CSV ve Excel</h3><p>Malik, hisse ve alan listelerini, nokta koordinatlarını haritaya getirin. Koordinat sütunlarını ve sistemini siz seçersiniz, GeoPocket tahminini önceden işaretler. WKT geometri sütunlu tablolar doğrudan açılır.</p><ul><li>Virgüllü ve noktalı ondalıklar</li><li>Birden çok sayfalı Excel dosyaları</li><li>Öznitelik tablosunu CSV veya XLSX olarak dışa aktarın</li></ul></div></div><div class="plate" role="tabpanel" id="p-pdf" aria-labelledby="f-pdf" tabindex="0"><div class="plate-phones"><div class="phone"><img src="img/tr/pdf.webp" alt="PDF" width="624" height="1350" loading="lazy" decoding="async"></div></div><div><h3>PDF</h3><p>Haritayı başlık, ölçek, koordinat sistemi ve lejantla vektör PDF'e dökün; size gelen PDF paftaları yakınlaştırarak inceleyin. Örnek, aplikasyon projesinin A4 çıktısı.</p><ul><li>A4 ve A3, dikey veya yatay sayfa</li><li>Yakınlaştırdıkça keskinleşen sayfa</li><li>Çok sayfalı PDF'ler</li></ul></div></div></div>
+  </div>
+</div></section><section class="band" id="araclar"><div class="wrap">
+  <div class="head"><h2>Sahada ihtiyaç duyduğunuz araçlar</h2><p>Ölçüm ve koordinat okuma ücretsizdir. Düzenleme ve dönüştürme Pro ile ya da kısa bir videoyla 15 dakika açılır.</p></div>
+  <div class="strip"><figure><div class="phone"><img src="img/tr/ncz_koordinat.webp" alt="Koordinat" width="624" height="1350" loading="lazy" decoding="async"></div><figcaption><b>Koordinat</b><span>Bir noktaya dokunun: Y, X, enlem ve boylam. Değerleri tek dokunuşla kopyalayın.</span></figcaption></figure><figure><div class="phone"><img src="img/tr/dxf.webp" alt="Alan ve mesafe" width="624" height="1350" loading="lazy" decoding="async"></div><figcaption><b>Alan ve mesafe</b><span>Köşelere yakalanarak alan, çevre ve mesafe; geri alarak düzeltin.</span></figcaption></figure><figure><div class="phone"><img src="img/tr/tablo.webp" alt="Öznitelik tablosu" width="624" height="1350" loading="lazy" decoding="async"></div><figcaption><b>Öznitelik tablosu</b><span>Her katmanın tablosu: arayın, sıralayın, bir satırdan objeye gidin.</span></figcaption></figure><figure><div class="phone"><img src="img/tr/donustur.webp" alt="Dönüştürme (Pro)" width="624" height="1350" loading="lazy" decoding="async"></div><figcaption><b>Dönüştürme (Pro)</b><span>Dosyayı açmadan başka formata çevirin; neyin aktarılamayacağı önceden yazılır.</span></figcaption></figure></div>
+  <p class="note">Düzenleme modunda (Pro) nokta, çizgi ve alan çizin ya da koordinatlarını yazarak ekleyin; öznitelikleri formdan girin. Değişiklikler dosyanın yanında saklanır, istediğinizde dışa aktarılır.</p>
+</div></section><section class="band"><div class="wrap">
+  <div class="head"><h2>Formatlar ve koordinat sistemleri</h2><p>Dosyalarınızı Dosyalar uygulamasından, başka bir uygulamanın Paylaş menüsünden ya da e-postadan açabilirsiniz.</p></div>
+  <div class="two">
+    <div><h3>Formatlar</h3><div class="scroll"><table>
+      <thead><tr><th scope="col">Format</th><th scope="col">Açma</th><th scope="col">Dışa aktarma ve dönüştürme</th></tr></thead>
+      <tbody><tr><th scope="row">Shapefile (.shp, .zip)</th><td class="y">Evet</td><td class="y">Evet</td></tr><tr><th scope="row">GeoPackage (.gpkg)</th><td class="y">Evet</td><td class="y">Evet</td></tr><tr><th scope="row">GeoJSON (.geojson, .json)</th><td class="y">Evet</td><td class="y">Evet</td></tr><tr><th scope="row">KML / KMZ</th><td class="y">Evet</td><td class="y">Evet</td></tr><tr><th scope="row">DXF</th><td class="y">Evet</td><td class="y">Evet</td></tr><tr><th scope="row">DWG</th><td class="y">Evet</td><td class="n">Hayır, DXF olarak</td></tr><tr><th scope="row">Netcad NCZ</th><td class="y">Evet</td><td class="y">Evet</td></tr><tr><th scope="row">CSV / Excel (.xlsx)</th><td class="y">Evet</td><td class="y">Tablo olarak</td></tr><tr><th scope="row">PDF</th><td class="y">Evet</td><td class="y">Harita çıktısı olarak</td></tr></tbody></table></div></div>
+    <div><h3>Koordinat sistemleri</h3><div class="scroll"><table>
+      <thead><tr><th scope="col">Sistem</th><th scope="col">Datum</th><th scope="col">Kapsam</th></tr></thead>
+      <tbody><tr><th scope="row">TM 3° (Gauss-Krüger)</th><td>ITRF96, ED50</td><td>27°, 30°, 33°, 36°, 39°, 42°, 45° dilimleri</td></tr><tr><th scope="row">UTM 6°</th><td>WGS84, ED50</td><td>Kuzey ve güney yarım küre, bütün dilimler</td></tr><tr><th scope="row">Coğrafi</th><td>WGS84</td><td>Enlem ve boylam; derece veya derece, dakika, saniye</td></tr><tr><th scope="row">Web Mercator</th><td>WGS84</td><td>EPSG:3857</td></tr><tr><th scope="row">Dosyadan</th><td>.prj, GeoPackage, EPSG kodu</td><td>Kendiliğinden okunur, istediğinizde değiştirilir</td></tr></tbody></table></div></div>
+  </div>
+</div></section><section class="band" id="fiyatlar"><div class="wrap">
+  <div class="head"><h2>Ücretsiz başlayın, gerektiğinde Pro'ya geçin</h2><p>Tüm dosyaları açmak ve ölçmek her zaman ücretsiz. Pro düzenleme, dışa aktarma ve dönüştürmeyi süresiz açar, reklamları kaldırır.</p></div>
+  <div class="pricing">
+    <div class="scroll"><table>
+      <colgroup><col><col><col><col class="pro"></colgroup>
+      <thead><tr><th scope="col"><span class="sr">Özellik</span></th>
+        <th scope="col"><b>Ücretsiz</b><span>Reklamlı</span></th>
+        <th scope="col"><b>Video geçişi</b><span>Kısa bir video izleyin</span></th>
+        <th scope="col"><b>Pro</b><span>Abonelik veya tek sefer</span></th></tr></thead>
+      <tbody><tr><th scope="row">Bütün formatları açma ve görüntüleme</th><td class="y">Evet</td><td class="y">Evet</td><td class="y">Evet</td></tr><tr><th scope="row">Alan, mesafe ve koordinat ölçümü</th><td class="y">Evet</td><td class="y">Evet</td><td class="y">Evet</td></tr><tr><th scope="row">Katmanlar, öznitelik tablosu, harita altlığı</th><td class="y">Evet</td><td class="y">Evet</td><td class="y">Evet</td></tr><tr><th scope="row">Düzenleme ve koordinatla ekleme</th><td class="n">—</td><td class="y">15 dakika</td><td class="y">Evet</td></tr><tr><th scope="row">Dışa aktarma ve format dönüştürme</th><td class="n">—</td><td class="y">15 dakika</td><td class="y">Evet</td></tr><tr><th scope="row">Reklamlar</th><td class="n">Var</td><td class="n">Var</td><td class="y">Yok</td></tr></tbody></table></div>
+    <div class="plans"><div class="plan"><span class="name">Pro Aylık</span><span class="price">49,99 TL <small>/ ay</small></span><span class="what">Her ay yenilenir</span></div><div class="plan best"><span class=tag>En avantajlı</span><span class="name">Pro Yıllık</span><span class="price">199,99 TL <small>/ yıl</small></span><span class="what">Aylığa göre %67 daha uygun</span></div><div class="plan"><span class="name">Pro Ömür boyu</span><span class="price">299,99 TL <small>tek sefer</small></span><span class="what">Bir kez ödeyin, hep kullanın</span></div></div>
+  </div>
+  <p class="note">Fiyatlar Türkiye App Store ve Google Play fiyatlarıdır, vergiler dahildir; başka ülkelerde mağaza yerel fiyatı gösterir. Ödeme Apple ya da Google hesabınızdan alınır. Aylık ve yıllık abonelikler, dönem bitiminden en az 24 saat önce iptal edilmedikçe kendiliğinden yenilenir; iptal mağaza hesabınızın abonelikler bölümünden yapılır. Ayrıntılar: <a href="kosullar.html#abonelik">Kullanım koşulları</a>.</p>
+</div></section><section class="band"><div class="wrap privacy">
+  <div><h2>Dosyalarınız telefonunuzda kalır</h2><p class="note">Ayrıntılar <a href="gizlilik.html">Gizlilik ve KVKK aydınlatma metninde</a>. Sorularınız için <a href="destek.html">Destek</a>.</p></div>
+  <dl><div><dt>Hesap gerekmez</dt><dd>GeoPocket'i kullanmak için kayıt olmazsınız; ad, e-posta ya da telefon numarası istenmez.</dd></div><div><dt>Sunucuya yükleme yok</dt><dd>Dosyalar telefonda açılır, düzenlenir ve dönüştürülür. Geliştiricinin işlettiği bir sunucu yoktur.</dd></div><div><dt>Reklam tercihi sizde</dt><dd>Kişiselleştirilmiş reklam yalnızca açık rızanızla gösterilir; rıza vermezseniz uygulama aynen çalışır.</dd></div><div><dt>Altlık isteğe bağlı</dt><dd>Dosyalar altlıksız açılır. Altlık seçerseniz yalnızca görünen bölgenin harita karoları indirilir.</dd></div></dl>
+</div></section>
+</main>
+<footer class="site-foot"><div class="wrap">
+  <div class="foot-grid">
+    <div><p class="b"><img src="img/icon-64.png" alt="" width="28" height="28">GeoPocket</p><p>Sahada GIS: CAD ve GIS dosyalarını telefonda açın, ölçün, düzenleyin ve dönüştürün.</p></div>
+    <div><h4>Ürün</h4><ul>
+      <li><a href="index.html#formatlar">Formatlar</a></li>
+      <li><a href="index.html#araclar">Araçlar</a></li>
+      <li><a href="index.html#fiyatlar">Fiyatlar</a></li></ul></div>
+    <div><h4>Yardım</h4><ul>
+      <li><a href="destek.html">Destek</a></li>
+      <li><a href="mailto:geopocket.info@gmail.com">geopocket.info@gmail.com</a></li>
+      <li><a href="../index.html" hreflang="en" lang="en">English</a></li></ul></div>
+    <div><h4>Yasal</h4><ul>
+      <li><a href="gizlilik.html">Gizlilik ve KVKK</a></li>
+      <li><a href="acik-riza.html">Açık rıza metni</a></li>
+      <li><a href="kosullar.html">Kullanım koşulları</a></li></ul></div>
+  </div>
+  <div class="legal-line"><p>© 2026 Vecihi Asım Kartoğlu. Tüm hakları saklıdır. GeoPocket adı, logosu ve yazılımı geliştiriciye aittir.</p><p>Apple, iPhone ve App Store, Apple Inc.'in; Google Play ve Android, Google LLC'nin ticari markalarıdır. AutoCAD, DWG, Netcad, Esri, Shapefile, Excel ve diğer ürün ve format adları sahiplerinin ticari markalarıdır. GeoPocket bu şirketlerle bağlantılı değildir ve onlar tarafından onaylanmamıştır.</p><p>Ekran görüntülerindeki harita altlıkları: © OpenStreetMap katkıcıları (ODbL), © OpenTopoMap (CC BY-SA). Görüntülerdeki parsel, malik, mağaza ve ölçüm verileri örnek amaçlı uydurulmuştur.</p></div>
+</div></footer>
+<script src="site.js" defer></script>
+</body>
+</html>
