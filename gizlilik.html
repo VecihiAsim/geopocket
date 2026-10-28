@@ -14,12 +14,12 @@
 <meta property="og:description" content="GeoPocket'in hangi verileri neden işlediği, kimlere aktardığı ve KVKK kapsamındaki haklarınız.">
 <meta property="og:url" content="https://vecihiasim.github.io/geopocket/gizlilik.html">
 <meta property="og:image" content="https://vecihiasim.github.io/geopocket/img/icon-192.png">
-<meta name="theme-color" content="#1e1a4d">
+<meta name="theme-color" content="#1c1848">
 <link rel="icon" type="image/png" sizes="64x64" href="img/icon-64.png">
 <link rel="apple-touch-icon" href="img/icon-192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,400..800;1,100,400&display=swap">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -27,7 +27,8 @@
 <div class="sheet sub">
 <header class="site-head"><div class="wrap">
   <a class="brand" href="index.html"><img src="img/icon-64.png" alt="" width="36" height="36">GeoPocket</a>
-  <nav aria-label="Formatlar"><a href="index.html#formatlar">Formatlar</a><a href="index.html#araclar">Araçlar</a><a href="index.html#fiyatlar">Fiyatlar</a><a href="destek.html">Destek</a><a class="lang" href="en/privacy.html" hreflang="en" lang="en">English</a></nav>
+  <nav class="site-nav" aria-label="Menü"><a href="index.html#formatlar">Formatlar</a><a href="index.html#araclar">Araçlar</a><a href="index.html#fiyatlar">Fiyatlar</a><a href="destek.html">Destek</a></nav>
+  <div class="lang-switch" role="group" aria-label="Dil"><span aria-current="true">TR</span><a href="en/privacy.html" hreflang="en" lang="en">EN</a></div>
 </div></header>
 <div class="wrap doc-title"><h1>Gizlilik Politikası ve KVKK Aydınlatma Metni</h1><p>GeoPocket'i kullanırken hangi verilerin, neden ve nerede işlendiği.</p><p>Son güncelleme: 24 Ekim 2026</p></div>
 </div>
@@ -51,11 +52,11 @@ yöntemini gösterir. Hukuki sebepler KVKK'nın 5. maddesine dayanır.</p>
 <div class="scroll"><table>
 <thead><tr><th scope="col">İşleme</th><th scope="col">Veriler</th><th scope="col">Amaç</th><th scope="col">Hukuki sebep</th><th scope="col">Toplama yöntemi</th></tr></thead>
 <tbody>
-<tr><th scope="row">Kişiselleştirilmemiş reklam</th><td>IP adresi, cihaz ve işletim sistemi bilgisi, uygulama sürümü, reklamın gösterilmesi ve tıklanması, kaba konum (IP'den ülke/şehir)</td><td>Ücretsiz sürümün reklam gelirleriyle sunulması, reklam sıklığının sınırlanması, sahtekârlığın önlenmesi</td><td>m.5/2-(f): temel hak ve özgürlüklerinize zarar vermemek kaydıyla veri sorumlusunun meşru menfaati</td><td>Google Mobile Ads SDK aracılığıyla, otomatik</td></tr>
-<tr><th scope="row">Kişiselleştirilmiş reklam</th><td>Yukarıdakilere ek olarak reklam kimliği (iOS IDFA, Android reklam kimliği) ve ilgi alanı profili</td><td>İlgi alanlarınıza göre reklam gösterilmesi</td><td>m.5/1: açık rıza (<a href="acik-riza.html">ayrı metin</a>)</td><td>Google Mobile Ads SDK aracılığıyla, otomatik; yalnızca rıza verirseniz</td></tr>
-<tr><th scope="row">Satın alma doğrulama</th><td>İşlem kimliği, ürün, satın alma ve yenileme tarihi (ad, kart ve adres bilgisi yoktur)</td><td>Pro haklarınızın tanınması ve geri yüklenmesi</td><td>m.5/2-(c): sözleşmenin kurulması veya ifası</td><td>Apple App Store / Google Play'den, cihaz üzerinde</td></tr>
-<tr><th scope="row">Harita altlığı</th><td>IP adresi, görüntülenen bölgenin harita karosu adresleri</td><td>Seçtiğiniz altlığın gösterilmesi</td><td>m.5/2-(c): sözleşmenin ifası (talep ettiğiniz hizmet)</td><td>Altlık açıkken cihazınızdan karo sunucusuna istek</td></tr>
-<tr><th scope="row">Destek yazışmaları</th><td>E-posta adresiniz, adınız (yazarsanız), mesaj ve ekleri</td><td>Sorunuzun yanıtlanması, hata giderme</td><td>m.5/2-(c) ve m.5/2-(f)</td><td>Bize gönderdiğiniz e-postadan</td></tr>
+<tr><th scope="row">Kişiselleştirilmemiş reklam</th><td data-label="Veriler">IP adresi, cihaz ve işletim sistemi bilgisi, uygulama sürümü, reklamın gösterilmesi ve tıklanması, kaba konum (IP'den ülke/şehir)</td><td data-label="Amaç">Ücretsiz sürümün reklam gelirleriyle sunulması, reklam sıklığının sınırlanması, sahtekârlığın önlenmesi</td><td data-label="Hukuki sebep">m.5/2-(f): temel hak ve özgürlüklerinize zarar vermemek kaydıyla veri sorumlusunun meşru menfaati</td><td data-label="Toplama yöntemi">Google Mobile Ads SDK aracılığıyla, otomatik</td></tr>
+<tr><th scope="row">Kişiselleştirilmiş reklam</th><td data-label="Veriler">Yukarıdakilere ek olarak reklam kimliği (iOS IDFA, Android reklam kimliği) ve ilgi alanı profili</td><td data-label="Amaç">İlgi alanlarınıza göre reklam gösterilmesi</td><td data-label="Hukuki sebep">m.5/1: açık rıza (<a href="acik-riza.html">ayrı metin</a>)</td><td data-label="Toplama yöntemi">Google Mobile Ads SDK aracılığıyla, otomatik; yalnızca rıza verirseniz</td></tr>
+<tr><th scope="row">Satın alma doğrulama</th><td data-label="Veriler">İşlem kimliği, ürün, satın alma ve yenileme tarihi (ad, kart ve adres bilgisi yoktur)</td><td data-label="Amaç">Pro haklarınızın tanınması ve geri yüklenmesi</td><td data-label="Hukuki sebep">m.5/2-(c): sözleşmenin kurulması veya ifası</td><td data-label="Toplama yöntemi">Apple App Store / Google Play'den, cihaz üzerinde</td></tr>
+<tr><th scope="row">Harita altlığı</th><td data-label="Veriler">IP adresi, görüntülenen bölgenin harita karosu adresleri</td><td data-label="Amaç">Seçtiğiniz altlığın gösterilmesi</td><td data-label="Hukuki sebep">m.5/2-(c): sözleşmenin ifası (talep ettiğiniz hizmet)</td><td data-label="Toplama yöntemi">Altlık açıkken cihazınızdan karo sunucusuna istek</td></tr>
+<tr><th scope="row">Destek yazışmaları</th><td data-label="Veriler">E-posta adresiniz, adınız (yazarsanız), mesaj ve ekleri</td><td data-label="Amaç">Sorunuzun yanıtlanması, hata giderme</td><td data-label="Hukuki sebep">m.5/2-(c) ve m.5/2-(f)</td><td data-label="Toplama yöntemi">Bize gönderdiğiniz e-postadan</td></tr>
 </tbody></table></div>
 <p>Dosyalarınızdaki veriler (örneğin parsel malik adları): bu veriler yalnızca telefonunuzda, sizin talebinizle açılır,
 gösterilir ve dönüştürülür; geliştirici bunlara erişmez, bunları toplamaz ve saklamaz. Dosyalarınızda başkalarına ait
