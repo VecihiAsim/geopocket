@@ -1,0 +1,4454 @@
+  0
+SECTION
+  2
+HEADER
+  9
+$ACADVER
+  1
+AC1009
+  9
+$DWGCODEPAGE
+  3
+ANSI_1254
+  9
+$INSUNITS
+ 70
+6
+  9
+$EXTMIN
+ 10
+-1.73
+ 20
+-1.43
+ 30
+0.0
+  9
+$EXTMAX
+ 10
+12.96
+ 20
+9.0
+ 30
+0.0
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+LTYPE
+ 70
+1
+  0
+LTYPE
+  2
+CONTINUOUS
+ 70
+0
+  3
+Solid line
+ 72
+65
+ 73
+0
+ 40
+0.0
+  0
+ENDTAB
+  0
+TABLE
+  2
+APPID
+ 70
+2
+  0
+APPID
+  2
+ACAD
+ 70
+0
+  0
+APPID
+  2
+GEOVIEW
+ 70
+0
+  0
+ENDTAB
+  0
+TABLE
+  2
+LAYER
+ 70
+7
+  0
+LAYER
+  2
+0
+ 70
+0
+ 62
+7
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+DUVAR
+ 70
+0
+ 62
+189
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+KAPI
+ 70
+0
+ 62
+32
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+PENCERE
+ 70
+0
+ 62
+144
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+MOBILYA
+ 70
+0
+ 62
+9
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+OLCU
+ 70
+0
+ 62
+232
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+MAHAL
+ 70
+0
+ 62
+179
+  6
+CONTINUOUS
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+POLYLINE
+  8
+DUVAR
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":0,"L":{"name":"DUVAR","color":"#34305c"},"crs":null}
+  0
+VERTEX
+  8
+DUVAR
+ 10
+0
+ 20
+0.0
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+1.4
+ 20
+0.0
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+1.4
+ 20
+0.25
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+0
+ 20
+0.25
+ 30
+0.0
+  0
+SEQEND
+  8
+DUVAR
+  0
+POLYLINE
+  8
+DUVAR
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":1}
+  0
+VERTEX
+  8
+DUVAR
+ 10
+3.4
+ 20
+0.0
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+4.0
+ 20
+0.0
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+4.0
+ 20
+0.25
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+3.4
+ 20
+0.25
+ 30
+0.0
+  0
+SEQEND
+  8
+DUVAR
+  0
+POLYLINE
+  8
+DUVAR
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":2}
+  0
+VERTEX
+  8
+DUVAR
+ 10
+5.6
+ 20
+0.0
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+8.0
+ 20
+0.0
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+8.0
+ 20
+0.25
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+5.6
+ 20
+0.25
+ 30
+0.0
+  0
+SEQEND
+  8
+DUVAR
+  0
+POLYLINE
+  8
+DUVAR
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":3}
+  0
+VERTEX
+  8
+DUVAR
+ 10
+10.4
+ 20
+0.0
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+12.0
+ 20
+0.0
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+12.0
+ 20
+0.25
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+10.4
+ 20
+0.25
+ 30
+0.0
+  0
+SEQEND
+  8
+DUVAR
+  0
+POLYLINE
+  8
+DUVAR
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":4}
+  0
+VERTEX
+  8
+DUVAR
+ 10
+0
+ 20
+8.75
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+1.0
+ 20
+8.75
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+1.0
+ 20
+9.0
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+0
+ 20
+9.0
+ 30
+0.0
+  0
+SEQEND
+  8
+DUVAR
+  0
+POLYLINE
+  8
+DUVAR
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":5}
+  0
+VERTEX
+  8
+DUVAR
+ 10
+2.8
+ 20
+8.75
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+7.1
+ 20
+8.75
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+7.1
+ 20
+9.0
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+2.8
+ 20
+9.0
+ 30
+0.0
+  0
+SEQEND
+  8
+DUVAR
+  0
+POLYLINE
+  8
+DUVAR
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":6}
+  0
+VERTEX
+  8
+DUVAR
+ 10
+8.3
+ 20
+8.75
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+9.8
+ 20
+8.75
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+9.8
+ 20
+9.0
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+8.3
+ 20
+9.0
+ 30
+0.0
+  0
+SEQEND
+  8
+DUVAR
+  0
+POLYLINE
+  8
+DUVAR
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":7}
+  0
+VERTEX
+  8
+DUVAR
+ 10
+11.2
+ 20
+8.75
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+12.0
+ 20
+8.75
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+12.0
+ 20
+9.0
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+11.2
+ 20
+9.0
+ 30
+0.0
+  0
+SEQEND
+  8
+DUVAR
+  0
+POLYLINE
+  8
+DUVAR
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":8}
+  0
+VERTEX
+  8
+DUVAR
+ 10
+0.0
+ 20
+0.25
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+0.25
+ 20
+0.25
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+0.25
+ 20
+2.0
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+0.0
+ 20
+2.0
+ 30
+0.0
+  0
+SEQEND
+  8
+DUVAR
+  0
+POLYLINE
+  8
+DUVAR
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":9}
+  0
+VERTEX
+  8
+DUVAR
+ 10
+0.0
+ 20
+3.6
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+0.25
+ 20
+3.6
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+0.25
+ 20
+8.75
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+0.0
+ 20
+8.75
+ 30
+0.0
+  0
+SEQEND
+  8
+DUVAR
+  0
+POLYLINE
+  8
+DUVAR
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":10}
+  0
+VERTEX
+  8
+DUVAR
+ 10
+11.75
+ 20
+0.25
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+12.0
+ 20
+0.25
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+12.0
+ 20
+1.2
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+11.75
+ 20
+1.2
+ 30
+0.0
+  0
+SEQEND
+  8
+DUVAR
+  0
+POLYLINE
+  8
+DUVAR
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":11}
+  0
+VERTEX
+  8
+DUVAR
+ 10
+11.75
+ 20
+2.6
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+12.0
+ 20
+2.6
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+12.0
+ 20
+6.0
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+11.75
+ 20
+6.0
+ 30
+0.0
+  0
+SEQEND
+  8
+DUVAR
+  0
+POLYLINE
+  8
+DUVAR
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":12}
+  0
+VERTEX
+  8
+DUVAR
+ 10
+11.75
+ 20
+7.6
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+12.0
+ 20
+7.6
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+12.0
+ 20
+8.75
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+11.75
+ 20
+8.75
+ 30
+0.0
+  0
+SEQEND
+  8
+DUVAR
+  0
+POLYLINE
+  8
+DUVAR
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":13}
+  0
+VERTEX
+  8
+DUVAR
+ 10
+0.25
+ 20
+4.94
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+2.9
+ 20
+4.94
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+2.9
+ 20
+5.06
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+0.25
+ 20
+5.06
+ 30
+0.0
+  0
+SEQEND
+  8
+DUVAR
+  0
+POLYLINE
+  8
+DUVAR
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":14}
+  0
+VERTEX
+  8
+DUVAR
+ 10
+3.8
+ 20
+4.94
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+4.6
+ 20
+4.94
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+4.6
+ 20
+5.06
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+3.8
+ 20
+5.06
+ 30
+0.0
+  0
+SEQEND
+  8
+DUVAR
+  0
+POLYLINE
+  8
+DUVAR
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":15}
+  0
+VERTEX
+  8
+DUVAR
+ 10
+5.5
+ 20
+4.94
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+7.3
+ 20
+4.94
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+7.3
+ 20
+5.06
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+5.5
+ 20
+5.06
+ 30
+0.0
+  0
+SEQEND
+  8
+DUVAR
+  0
+POLYLINE
+  8
+DUVAR
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":16}
+  0
+VERTEX
+  8
+DUVAR
+ 10
+8.1
+ 20
+4.94
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+10.8
+ 20
+4.94
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+10.8
+ 20
+5.06
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+8.1
+ 20
+5.06
+ 30
+0.0
+  0
+SEQEND
+  8
+DUVAR
+  0
+POLYLINE
+  8
+DUVAR
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":17}
+  0
+VERTEX
+  8
+DUVAR
+ 10
+11.7
+ 20
+4.94
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+11.75
+ 20
+4.94
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+11.75
+ 20
+5.06
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+11.7
+ 20
+5.06
+ 30
+0.0
+  0
+SEQEND
+  8
+DUVAR
+  0
+POLYLINE
+  8
+DUVAR
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":18}
+  0
+VERTEX
+  8
+DUVAR
+ 10
+6.44
+ 20
+0.25
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+6.56
+ 20
+0.25
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+6.56
+ 20
+3.4
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+6.44
+ 20
+3.4
+ 30
+0.0
+  0
+SEQEND
+  8
+DUVAR
+  0
+POLYLINE
+  8
+DUVAR
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":19}
+  0
+VERTEX
+  8
+DUVAR
+ 10
+6.44
+ 20
+4.4
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+6.56
+ 20
+4.4
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+6.56
+ 20
+5.0
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+6.44
+ 20
+5.0
+ 30
+0.0
+  0
+SEQEND
+  8
+DUVAR
+  0
+POLYLINE
+  8
+DUVAR
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":20}
+  0
+VERTEX
+  8
+DUVAR
+ 10
+3.94
+ 20
+5.0
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+4.06
+ 20
+5.0
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+4.06
+ 20
+8.75
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+3.94
+ 20
+8.75
+ 30
+0.0
+  0
+SEQEND
+  8
+DUVAR
+  0
+POLYLINE
+  8
+DUVAR
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":21}
+  0
+VERTEX
+  8
+DUVAR
+ 10
+6.44
+ 20
+5.0
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+6.56
+ 20
+5.0
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+6.56
+ 20
+8.75
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+6.44
+ 20
+8.75
+ 30
+0.0
+  0
+SEQEND
+  8
+DUVAR
+  0
+POLYLINE
+  8
+DUVAR
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":22}
+  0
+VERTEX
+  8
+DUVAR
+ 10
+8.94
+ 20
+5.0
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+9.06
+ 20
+5.0
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+9.06
+ 20
+8.75
+ 30
+0.0
+  0
+VERTEX
+  8
+DUVAR
+ 10
+8.94
+ 20
+8.75
+ 30
+0.0
+  0
+SEQEND
+  8
+DUVAR
+  0
+POLYLINE
+  8
+PENCERE
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":23,"L":{"name":"PENCERE","color":"#0e7490"}}
+  0
+VERTEX
+  8
+PENCERE
+ 10
+1.4
+ 20
+0
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+3.4
+ 20
+0
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+3.4
+ 20
+0.25
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+1.4
+ 20
+0.25
+ 30
+0.0
+  0
+SEQEND
+  8
+PENCERE
+  0
+POLYLINE
+  8
+PENCERE
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+1.4
+ 20
+0.125
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+3.4
+ 20
+0.125
+ 30
+0.0
+  0
+SEQEND
+  8
+PENCERE
+  0
+POLYLINE
+  8
+PENCERE
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":25}
+  0
+VERTEX
+  8
+PENCERE
+ 10
+4.0
+ 20
+0
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+5.6
+ 20
+0
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+5.6
+ 20
+0.25
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+4.0
+ 20
+0.25
+ 30
+0.0
+  0
+SEQEND
+  8
+PENCERE
+  0
+POLYLINE
+  8
+PENCERE
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+4.0
+ 20
+0.125
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+5.6
+ 20
+0.125
+ 30
+0.0
+  0
+SEQEND
+  8
+PENCERE
+  0
+POLYLINE
+  8
+PENCERE
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":27}
+  0
+VERTEX
+  8
+PENCERE
+ 10
+8.0
+ 20
+0
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+10.4
+ 20
+0
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+10.4
+ 20
+0.25
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+8.0
+ 20
+0.25
+ 30
+0.0
+  0
+SEQEND
+  8
+PENCERE
+  0
+POLYLINE
+  8
+PENCERE
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+8.0
+ 20
+0.125
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+10.4
+ 20
+0.125
+ 30
+0.0
+  0
+SEQEND
+  8
+PENCERE
+  0
+POLYLINE
+  8
+PENCERE
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":29}
+  0
+VERTEX
+  8
+PENCERE
+ 10
+1.0
+ 20
+8.75
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+2.8
+ 20
+8.75
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+2.8
+ 20
+9.0
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+1.0
+ 20
+9.0
+ 30
+0.0
+  0
+SEQEND
+  8
+PENCERE
+  0
+POLYLINE
+  8
+PENCERE
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+1.0
+ 20
+8.875
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+2.8
+ 20
+8.875
+ 30
+0.0
+  0
+SEQEND
+  8
+PENCERE
+  0
+POLYLINE
+  8
+PENCERE
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":31}
+  0
+VERTEX
+  8
+PENCERE
+ 10
+7.1
+ 20
+8.75
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+8.3
+ 20
+8.75
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+8.3
+ 20
+9.0
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+7.1
+ 20
+9.0
+ 30
+0.0
+  0
+SEQEND
+  8
+PENCERE
+  0
+POLYLINE
+  8
+PENCERE
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+7.1
+ 20
+8.875
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+8.3
+ 20
+8.875
+ 30
+0.0
+  0
+SEQEND
+  8
+PENCERE
+  0
+POLYLINE
+  8
+PENCERE
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":33}
+  0
+VERTEX
+  8
+PENCERE
+ 10
+9.8
+ 20
+8.75
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+11.2
+ 20
+8.75
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+11.2
+ 20
+9.0
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+9.8
+ 20
+9.0
+ 30
+0.0
+  0
+SEQEND
+  8
+PENCERE
+  0
+POLYLINE
+  8
+PENCERE
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+9.8
+ 20
+8.875
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+11.2
+ 20
+8.875
+ 30
+0.0
+  0
+SEQEND
+  8
+PENCERE
+  0
+POLYLINE
+  8
+PENCERE
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":35}
+  0
+VERTEX
+  8
+PENCERE
+ 10
+0
+ 20
+2.0
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+0.25
+ 20
+2.0
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+0.25
+ 20
+3.6
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+0
+ 20
+3.6
+ 30
+0.0
+  0
+SEQEND
+  8
+PENCERE
+  0
+POLYLINE
+  8
+PENCERE
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+0.125
+ 20
+2.0
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+0.125
+ 20
+3.6
+ 30
+0.0
+  0
+SEQEND
+  8
+PENCERE
+  0
+POLYLINE
+  8
+PENCERE
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":37}
+  0
+VERTEX
+  8
+PENCERE
+ 10
+11.75
+ 20
+1.2
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+12.0
+ 20
+1.2
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+12.0
+ 20
+2.6
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+11.75
+ 20
+2.6
+ 30
+0.0
+  0
+SEQEND
+  8
+PENCERE
+  0
+POLYLINE
+  8
+PENCERE
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+11.875
+ 20
+1.2
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+11.875
+ 20
+2.6
+ 30
+0.0
+  0
+SEQEND
+  8
+PENCERE
+  0
+POLYLINE
+  8
+PENCERE
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":39}
+  0
+VERTEX
+  8
+PENCERE
+ 10
+11.75
+ 20
+6.0
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+12.0
+ 20
+6.0
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+12.0
+ 20
+7.6
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+11.75
+ 20
+7.6
+ 30
+0.0
+  0
+SEQEND
+  8
+PENCERE
+  0
+POLYLINE
+  8
+PENCERE
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+11.875
+ 20
+6.0
+ 30
+0.0
+  0
+VERTEX
+  8
+PENCERE
+ 10
+11.875
+ 20
+7.6
+ 30
+0.0
+  0
+SEQEND
+  8
+PENCERE
+  0
+POLYLINE
+  8
+KAPI
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+1001
+GEOVIEW
+1000
+{"L":{"name":"KAPI","color":"#d97706"}}
+  0
+VERTEX
+  8
+KAPI
+ 10
+2.9
+ 20
+5.06
+ 30
+0.0
+  0
+VERTEX
+  8
+KAPI
+ 10
+2.9
+ 20
+5.96
+ 30
+0.0
+  0
+SEQEND
+  8
+KAPI
+  0
+ARC
+  8
+KAPI
+ 10
+2.9
+ 20
+5.06
+ 30
+0.0
+ 40
+0.9
+ 50
+0.0
+ 51
+90.0
+  0
+POLYLINE
+  8
+KAPI
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+KAPI
+ 10
+5.5
+ 20
+5.06
+ 30
+0.0
+  0
+VERTEX
+  8
+KAPI
+ 10
+5.5
+ 20
+5.96
+ 30
+0.0
+  0
+SEQEND
+  8
+KAPI
+  0
+ARC
+  8
+KAPI
+ 10
+5.5
+ 20
+5.06
+ 30
+0.0
+ 40
+0.9
+ 50
+90.0
+ 51
+180.0
+  0
+POLYLINE
+  8
+KAPI
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+KAPI
+ 10
+7.3
+ 20
+5.06
+ 30
+0.0
+  0
+VERTEX
+  8
+KAPI
+ 10
+7.3
+ 20
+5.86
+ 30
+0.0
+  0
+SEQEND
+  8
+KAPI
+  0
+ARC
+  8
+KAPI
+ 10
+7.3
+ 20
+5.06
+ 30
+0.0
+ 40
+0.8
+ 50
+0.0
+ 51
+90.0
+  0
+POLYLINE
+  8
+KAPI
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+KAPI
+ 10
+11.7
+ 20
+5.06
+ 30
+0.0
+  0
+VERTEX
+  8
+KAPI
+ 10
+11.7
+ 20
+5.96
+ 30
+0.0
+  0
+SEQEND
+  8
+KAPI
+  0
+ARC
+  8
+KAPI
+ 10
+11.7
+ 20
+5.06
+ 30
+0.0
+ 40
+0.9
+ 50
+90.0
+ 51
+180.0
+  0
+POLYLINE
+  8
+KAPI
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+KAPI
+ 10
+6.44
+ 20
+3.4
+ 30
+0.0
+  0
+VERTEX
+  8
+KAPI
+ 10
+5.54
+ 20
+3.4
+ 30
+0.0
+  0
+SEQEND
+  8
+KAPI
+  0
+ARC
+  8
+KAPI
+ 10
+6.44
+ 20
+3.4
+ 30
+0.0
+ 40
+0.9
+ 50
+90.0
+ 51
+180.0
+  0
+POLYLINE
+  8
+KAPI
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+KAPI
+ 10
+0.25
+ 20
+3.6
+ 30
+0.0
+  0
+VERTEX
+  8
+KAPI
+ 10
+1.15
+ 20
+3.6
+ 30
+0.0
+  0
+SEQEND
+  8
+KAPI
+  0
+ARC
+  8
+KAPI
+ 10
+0.25
+ 20
+3.6
+ 30
+0.0
+ 40
+0.9
+ 50
+270.0
+ 51
+0.0
+  0
+POLYLINE
+  8
+MOBILYA
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":53,"L":{"name":"MOBILYA","color":"#787196"}}
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+0.6
+ 20
+0.7
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+3.0
+ 20
+0.7
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+3.0
+ 20
+1.6
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+0.6
+ 20
+1.6
+ 30
+0.0
+  0
+SEQEND
+  8
+MOBILYA
+  0
+POLYLINE
+  8
+MOBILYA
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":54}
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+0.6
+ 20
+1.6
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+1.4
+ 20
+1.6
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+1.4
+ 20
+3.0
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+0.6
+ 20
+3.0
+ 30
+0.0
+  0
+SEQEND
+  8
+MOBILYA
+  0
+POLYLINE
+  8
+MOBILYA
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":55}
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+4.0
+ 20
+1.4
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+5.6
+ 20
+1.4
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+5.6
+ 20
+2.4
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+4.0
+ 20
+2.4
+ 30
+0.0
+  0
+SEQEND
+  8
+MOBILYA
+  0
+CIRCLE
+  8
+MOBILYA
+ 10
+4.4
+ 20
+1.05
+ 30
+0.0
+ 40
+0.22
+  0
+CIRCLE
+  8
+MOBILYA
+ 10
+4.4
+ 20
+2.75
+ 30
+0.0
+ 40
+0.22
+  0
+CIRCLE
+  8
+MOBILYA
+ 10
+5.2
+ 20
+1.05
+ 30
+0.0
+ 40
+0.22
+  0
+CIRCLE
+  8
+MOBILYA
+ 10
+5.2
+ 20
+2.75
+ 30
+0.0
+ 40
+0.22
+  0
+POLYLINE
+  8
+MOBILYA
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":60}
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+6.7
+ 20
+0.35
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+11.65
+ 20
+0.35
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+11.65
+ 20
+0.95
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+6.7
+ 20
+0.95
+ 30
+0.0
+  0
+SEQEND
+  8
+MOBILYA
+  0
+POLYLINE
+  8
+MOBILYA
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":61}
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+11.05
+ 20
+0.95
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+11.65
+ 20
+0.95
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+11.65
+ 20
+3.4
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+11.05
+ 20
+3.4
+ 30
+0.0
+  0
+SEQEND
+  8
+MOBILYA
+  0
+CIRCLE
+  8
+MOBILYA
+ 10
+8.2
+ 20
+0.65
+ 30
+0.0
+ 40
+0.22
+  0
+POLYLINE
+  8
+MOBILYA
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":63}
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+8.6
+ 20
+2.0
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+10.2
+ 20
+2.0
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+10.2
+ 20
+3.2
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+8.6
+ 20
+3.2
+ 30
+0.0
+  0
+SEQEND
+  8
+MOBILYA
+  0
+POLYLINE
+  8
+MOBILYA
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":64}
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+0.6
+ 20
+6.6
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+2.4
+ 20
+6.6
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+2.4
+ 20
+8.1
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+0.6
+ 20
+8.1
+ 30
+0.0
+  0
+SEQEND
+  8
+MOBILYA
+  0
+POLYLINE
+  8
+MOBILYA
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":65}
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+0.6
+ 20
+8.1
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+2.4
+ 20
+8.1
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+2.4
+ 20
+8.6
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+0.6
+ 20
+8.6
+ 30
+0.0
+  0
+SEQEND
+  8
+MOBILYA
+  0
+POLYLINE
+  8
+MOBILYA
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":66}
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+3.1
+ 20
+8.0
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+3.8
+ 20
+8.0
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+3.8
+ 20
+8.6
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+3.1
+ 20
+8.6
+ 30
+0.0
+  0
+SEQEND
+  8
+MOBILYA
+  0
+POLYLINE
+  8
+MOBILYA
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":67}
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+9.3
+ 20
+7.2
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+11.4
+ 20
+7.2
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+11.4
+ 20
+8.6
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+9.3
+ 20
+8.6
+ 30
+0.0
+  0
+SEQEND
+  8
+MOBILYA
+  0
+POLYLINE
+  8
+MOBILYA
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":68}
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+6.8
+ 20
+7.3
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+8.7
+ 20
+7.3
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+8.7
+ 20
+8.6
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+6.8
+ 20
+8.6
+ 30
+0.0
+  0
+SEQEND
+  8
+MOBILYA
+  0
+CIRCLE
+  8
+MOBILYA
+ 10
+7.0
+ 20
+5.5
+ 30
+0.0
+ 40
+0.3
+  0
+POLYLINE
+  8
+MOBILYA
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+1001
+GEOVIEW
+1000
+{"k":"polygon","g":70}
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+8.1
+ 20
+5.3
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+8.8
+ 20
+5.3
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+8.8
+ 20
+6.1
+ 30
+0.0
+  0
+VERTEX
+  8
+MOBILYA
+ 10
+8.1
+ 20
+6.1
+ 30
+0.0
+  0
+SEQEND
+  8
+MOBILYA
+  0
+POLYLINE
+  8
+OLCU
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+1001
+GEOVIEW
+1000
+{"L":{"name":"OLCU","color":"#be185d"}}
+  0
+VERTEX
+  8
+OLCU
+ 10
+0
+ 20
+-0.8
+ 30
+0.0
+  0
+VERTEX
+  8
+OLCU
+ 10
+12.0
+ 20
+-0.8
+ 30
+0.0
+  0
+SEQEND
+  8
+OLCU
+  0
+POLYLINE
+  8
+OLCU
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+OLCU
+ 10
+0.0
+ 20
+-0.32
+ 30
+0.0
+  0
+VERTEX
+  8
+OLCU
+ 10
+0.0
+ 20
+-0.96
+ 30
+0.0
+  0
+SEQEND
+  8
+OLCU
+  0
+POLYLINE
+  8
+OLCU
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+OLCU
+ 10
+12.0
+ 20
+-0.32
+ 30
+0.0
+  0
+VERTEX
+  8
+OLCU
+ 10
+12.0
+ 20
+-0.96
+ 30
+0.0
+  0
+SEQEND
+  8
+OLCU
+  0
+TEXT
+  8
+OLCU
+ 10
+5.55
+ 20
+-1.43
+ 30
+0.0
+ 40
+0.32
+  1
+12,00
+  0
+POLYLINE
+  8
+OLCU
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+OLCU
+ 10
+0
+ 20
+-0.45
+ 30
+0.0
+  0
+VERTEX
+  8
+OLCU
+ 10
+6.5
+ 20
+-0.45
+ 30
+0.0
+  0
+SEQEND
+  8
+OLCU
+  0
+POLYLINE
+  8
+OLCU
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+OLCU
+ 10
+0.0
+ 20
+-0.18
+ 30
+0.0
+  0
+VERTEX
+  8
+OLCU
+ 10
+0.0
+ 20
+-0.54
+ 30
+0.0
+  0
+SEQEND
+  8
+OLCU
+  0
+POLYLINE
+  8
+OLCU
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+OLCU
+ 10
+6.5
+ 20
+-0.18
+ 30
+0.0
+  0
+VERTEX
+  8
+OLCU
+ 10
+6.5
+ 20
+-0.54
+ 30
+0.0
+  0
+SEQEND
+  8
+OLCU
+  0
+TEXT
+  8
+OLCU
+ 10
+2.8
+ 20
+-0.87
+ 30
+0.0
+ 40
+0.32
+  1
+6,50
+  0
+POLYLINE
+  8
+OLCU
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+OLCU
+ 10
+-0.8
+ 20
+9.0
+ 30
+0.0
+  0
+VERTEX
+  8
+OLCU
+ 10
+-0.8
+ 20
+0
+ 30
+0.0
+  0
+SEQEND
+  8
+OLCU
+  0
+POLYLINE
+  8
+OLCU
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+OLCU
+ 10
+-0.32
+ 20
+9.0
+ 30
+0.0
+  0
+VERTEX
+  8
+OLCU
+ 10
+-0.96
+ 20
+9.0
+ 30
+0.0
+  0
+SEQEND
+  8
+OLCU
+  0
+POLYLINE
+  8
+OLCU
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+OLCU
+ 10
+-0.32
+ 20
+0.0
+ 30
+0.0
+  0
+VERTEX
+  8
+OLCU
+ 10
+-0.96
+ 20
+0.0
+ 30
+0.0
+  0
+SEQEND
+  8
+OLCU
+  0
+TEXT
+  8
+OLCU
+ 10
+-1.73
+ 20
+4.35
+ 30
+0.0
+ 40
+0.32
+  1
+9,00
+  0
+POLYLINE
+  8
+OLCU
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+OLCU
+ 10
+12.8
+ 20
+0
+ 30
+0.0
+  0
+VERTEX
+  8
+OLCU
+ 10
+12.8
+ 20
+5.0
+ 30
+0.0
+  0
+SEQEND
+  8
+OLCU
+  0
+POLYLINE
+  8
+OLCU
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+OLCU
+ 10
+12.32
+ 20
+0.0
+ 30
+0.0
+  0
+VERTEX
+  8
+OLCU
+ 10
+12.96
+ 20
+0.0
+ 30
+0.0
+  0
+SEQEND
+  8
+OLCU
+  0
+POLYLINE
+  8
+OLCU
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+OLCU
+ 10
+12.32
+ 20
+5.0
+ 30
+0.0
+  0
+VERTEX
+  8
+OLCU
+ 10
+12.96
+ 20
+5.0
+ 30
+0.0
+  0
+SEQEND
+  8
+OLCU
+  0
+TEXT
+  8
+OLCU
+ 10
+12.83
+ 20
+2.35
+ 30
+0.0
+ 40
+0.32
+  1
+5,00
+  0
+POLYLINE
+  8
+OLCU
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+OLCU
+ 10
+12.8
+ 20
+5.0
+ 30
+0.0
+  0
+VERTEX
+  8
+OLCU
+ 10
+12.8
+ 20
+9.0
+ 30
+0.0
+  0
+SEQEND
+  8
+OLCU
+  0
+POLYLINE
+  8
+OLCU
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+OLCU
+ 10
+12.32
+ 20
+5.0
+ 30
+0.0
+  0
+VERTEX
+  8
+OLCU
+ 10
+12.96
+ 20
+5.0
+ 30
+0.0
+  0
+SEQEND
+  8
+OLCU
+  0
+POLYLINE
+  8
+OLCU
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  8
+OLCU
+ 10
+12.32
+ 20
+9.0
+ 30
+0.0
+  0
+VERTEX
+  8
+OLCU
+ 10
+12.96
+ 20
+9.0
+ 30
+0.0
+  0
+SEQEND
+  8
+OLCU
+  0
+TEXT
+  8
+OLCU
+ 10
+12.83
+ 20
+6.85
+ 30
+0.0
+ 40
+0.32
+  1
+4,00
+  0
+TEXT
+  8
+MAHAL
+ 10
+2.0
+ 20
+3.9
+ 30
+0.0
+ 40
+0.34
+  1
+SALON
+1001
+GEOVIEW
+1000
+{"L":{"name":"MAHAL","color":"#28283c"}}
+  0
+TEXT
+  8
+MAHAL
+ 10
+2.0
+ 20
+3.42
+ 30
+0.0
+ 40
+0.26
+  1
+29,03 m²
+  0
+TEXT
+  8
+MAHAL
+ 10
+7.0
+ 20
+4.25
+ 30
+0.0
+ 40
+0.34
+  1
+MUTFAK
+  0
+TEXT
+  8
+MAHAL
+ 10
+7.0
+ 20
+3.77
+ 30
+0.0
+ 40
+0.26
+  1
+24,34 m²
+  0
+TEXT
+  8
+MAHAL
+ 10
+0.6
+ 20
+6.0
+ 30
+0.0
+ 40
+0.34
+  1
+YATAK 1
+  0
+TEXT
+  8
+MAHAL
+ 10
+0.6
+ 20
+5.52
+ 30
+0.0
+ 40
+0.26
+  1
+13,62 m²
+  0
+TEXT
+  8
+MAHAL
+ 10
+4.35
+ 20
+7.0
+ 30
+0.0
+ 40
+0.34
+  1
+ANTRE
+  0
+TEXT
+  8
+MAHAL
+ 10
+4.35
+ 20
+6.52
+ 30
+0.0
+ 40
+0.26
+  1
+8,78 m²
+  0
+TEXT
+  8
+MAHAL
+ 10
+7.0
+ 20
+6.75
+ 30
+0.0
+ 40
+0.34
+  1
+BANYO
+  0
+TEXT
+  8
+MAHAL
+ 10
+7.0
+ 20
+6.27
+ 30
+0.0
+ 40
+0.26
+  1
+8,78 m²
+  0
+TEXT
+  8
+MAHAL
+ 10
+9.3
+ 20
+6.6
+ 30
+0.0
+ 40
+0.34
+  1
+YATAK 2
+  0
+TEXT
+  8
+MAHAL
+ 10
+9.3
+ 20
+6.12
+ 30
+0.0
+ 40
+0.26
+  1
+9,93 m²
+  0
+ENDSEC
+  0
+EOF
