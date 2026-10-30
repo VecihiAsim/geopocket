@@ -333,3 +333,21 @@ td.n { color: var(--no); }
   .plan { padding: 18px 20px; gap: 2px; }
   .plan .price { font-size: 28px; }
 }
+
+/* samples page: the ED50 -> ITRF96 walk-through */
+.transform { margin-top: 56px; display: grid; gap: 14px; }
+.transform h2 { margin: 0; }
+.transform h3 { margin: 18px 0 0; }
+.transform ol { margin: 8px 0 0; padding-left: 1.3em; display: grid; gap: 8px; }
+.transform-grid { display: grid; gap: 28px; grid-template-columns: minmax(0, 1fr) 280px; align-items: start; }
+.transform .clip { margin: 0; }
+.transform .clip img { display: block; width: 100%; height: auto; border-radius: 22px; }
+.ways { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 8px 18px; margin: 8px 0 0; }
+.ways dt { font-weight: 700; }
+.ways dd { margin: 0; }
+@media (max-width: 760px) {
+  .transform-grid { grid-template-columns: 1fr; }
+  .transform .clip { max-width: 280px; justify-self: center; }
+  .ways { grid-template-columns: 1fr; gap: 2px; }
+  .ways dd { margin-bottom: 10px; }
+}

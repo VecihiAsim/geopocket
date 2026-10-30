@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Örnek dosyalar – GeoPocket</title>
-<meta name="description" content="GeoPocket'i denemek için uydurma örnek dosyalar: GeoPackage, GeoJSON, KMZ, DXF, NCZ, CSV, Excel ve PDF.">
+<meta name="description" content="GeoPocket'i denemek için uydurma örnek dosyalar: GeoPackage, GeoJSON, KMZ, DXF, NCZ, CSV, Excel, PDF ve ED50'den ITRF96'ya DNS dönüşümü.">
 <link rel="canonical" href="https://vecihiasim.github.io/geopocket/ornek-dosyalar.html">
 <link rel="alternate" hreflang="tr" href="https://vecihiasim.github.io/geopocket/ornek-dosyalar.html">
 <link rel="alternate" hreflang="en" href="https://vecihiasim.github.io/geopocket/en/samples.html">
 <link rel="alternate" hreflang="x-default" href="https://vecihiasim.github.io/geopocket/ornek-dosyalar.html">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Örnek dosyalar – GeoPocket">
-<meta property="og:description" content="GeoPocket'i denemek için uydurma örnek dosyalar: GeoPackage, GeoJSON, KMZ, DXF, NCZ, CSV, Excel ve PDF.">
+<meta property="og:description" content="GeoPocket'i denemek için uydurma örnek dosyalar: GeoPackage, GeoJSON, KMZ, DXF, NCZ, CSV, Excel, PDF ve ED50'den ITRF96'ya DNS dönüşümü.">
 <meta property="og:url" content="https://vecihiasim.github.io/geopocket/ornek-dosyalar.html">
 <meta property="og:image" content="https://vecihiasim.github.io/geopocket/img/icon-192.png">
 <meta name="theme-color" content="#1c1848">
@@ -36,6 +36,21 @@
 <div class="wrap samples">
   <div class="how"><div><h2>Nasıl açılır</h2><ol><li>iPhone'da Safari, Android'de Chrome ile bir dosyaya dokunun.</li><li>"GeoPocket'te Aç"ı seçin ya da dosyayı kaydedip GeoPocket'te <i>Dosyalar › Dosya ekle</i> ile açın.</li></ol></div></div>
   <ul class="files"><li><a class="file" href="samples/tr/Imar_plani.gpkg" download><span class="sw" style="--c:#ea580c"></span><span class="fn">Imar_plani.gpkg</span><span class="meta">GeoPackage · 76 KB</span><span class="d">Uygulama imar planı: konut, ticaret, eğitim ve park alanları; parsellerde emsal, TAKS, Hmax ve kat</span></a></li><li><a class="file" href="samples/tr/AVM_zemin_kat.gpkg" download><span class="sw" style="--c:#7c3aed"></span><span class="fn">AVM_zemin_kat.gpkg</span><span class="meta">GeoPackage · 72 KB</span><span class="d">AVM zemin katı: mağaza, yeme içme, hizmet ve ortak alan katmanları, olanak noktaları</span></a></li><li><a class="file" href="samples/tr/AVM_zemin_kat.geojson" download><span class="sw" style="--c:#0f8c7e"></span><span class="fn">AVM_zemin_kat.geojson</span><span class="meta">GeoJSON · 11 KB</span><span class="d">Aynı kat planı GeoJSON olarak</span></a></li><li><a class="file" href="samples/tr/Ada_418-419.kmz" download><span class="sw" style="--c:#d9265b"></span><span class="fn">Ada_418-419.kmz</span><span class="meta">KMZ · 2 KB</span><span class="d">418, 419 ve 420 numaralı adalar, 15 parsel ve köy yolu</span></a></li><li><a class="file" href="samples/tr/Kat_plani.dxf" download><span class="sw" style="--c:#15122c"></span><span class="fn">Kat_plani.dxf</span><span class="meta">DXF · 26 KB</span><span class="d">Daire planı: duvar, kapı, pencere, oda adları ve ölçüler</span></a></li><li><a class="file" href="samples/tr/Aplikasyon_215-6.ncz" download><span class="sw" style="--c:#d9265b"></span><span class="fn">Aplikasyon_215-6.ncz</span><span class="meta">Netcad NCZ · 36 KB</span><span class="d">215 ada 6 parsel aplikasyon projesi (ITRF96 TM30)</span></a></li><li><a class="file" href="samples/tr/Aplikasyon_215-6.pdf" download><span class="sw" style="--c:#c28a04"></span><span class="fn">Aplikasyon_215-6.pdf</span><span class="meta">PDF · 3 KB</span><span class="d">Aynı projenin A4 çıktısı</span></a></li><li><a class="file" href="samples/tr/Malikler_ada_215.xlsx" download><span class="sw" style="--c:#0f8c7e"></span><span class="fn">Malikler_ada_215.xlsx</span><span class="meta">Excel · 3 KB</span><span class="d">Malikler, hisseler ve parsel koordinatları (TM30)</span></a></li><li><a class="file" href="samples/tr/Malikler_ada_215.csv" download><span class="sw" style="--c:#0f8c7e"></span><span class="fn">Malikler_ada_215.csv</span><span class="meta">CSV · 1 KB</span><span class="d">Aynı liste CSV olarak</span></a></li></ul>
+  <section class="transform" id="donusum">
+  <h2>ED50'den ITRF96'ya dönüşüm örneği</h2>
+  <p>Dört dosya aynı uydurma projeyi anlatıyor. ED50 dosyasını dönüştürün, sonucu ITRF96 dosyasıyla karşılaştırın.</p>
+  <div class="transform-grid">
+    <div>
+      <ul class="files"><li><a class="file" href="samples/tr/Donusum_ED50.ncz" download><span class="sw" style="--c:#d9265b"></span><span class="fn">Donusum_ED50.ncz</span><span class="meta">Netcad NCZ · 38 KB</span><span class="d">Başlangıç: ED50 TM30 koordinatlı aplikasyon projesi</span></a></li><li><a class="file" href="samples/tr/Donusum_ED50_ITRF96.dns" download><span class="sw" style="--c:#6238db"></span><span class="fn">Donusum_ED50_ITRF96.dns</span><span class="meta">Netcad DNS · 1 KB</span><span class="d">Dönüşüm: 8 ortak noktalı Netcad DNS dosyası</span></a></li><li><a class="file" href="samples/tr/Donusum_ortak_noktalar.txt" download><span class="sw" style="--c:#0f8c7e"></span><span class="fn">Donusum_ortak_noktalar.txt</span><span class="meta">TXT · 1 KB</span><span class="d">Aynı 8 nokta: kopyalayıp ortak nokta ekranına yapıştırın</span></a></li><li><a class="file" href="samples/tr/Donusum_ITRF96.ncz" download><span class="sw" style="--c:#d9265b"></span><span class="fn">Donusum_ITRF96.ncz</span><span class="meta">Netcad NCZ · 38 KB</span><span class="d">Beklenen sonuç: aynı proje ITRF96 TM30'da</span></a></li></ul>
+      <h3>Adımlar</h3>
+      <ol><li><b>Donusum_ED50.ncz</b> dosyasını GeoPocket'te açın.</li><li>Sağ üstteki menüden <i>Koordinat sistemi › TM 3° › ED50 › 30°</i> seçin.</li><li><i>Datum dönüşümü › DNS dosyası veya matris › DNS dosyası seç</i> ile <b>Donusum_ED50_ITRF96.dns</b> dosyasını seçin. RMS 0,015 m ve nokta düzeltmeleri görünür.</li><li><i>Kaydet ve kullan</i>, ardından <i>Kaydet</i>. Dönüşüm uygulamada saklanır, aynı dilimdeki bütün dosyalarda seçilebilir.</li><li>Geri dönün, dosyanın menüsünden <i>Dönüştür</i>'ü açın, <i>ITRF96'ya dönüştür</i>'ü açın, formatı seçin ve dönüştürün.</li></ol>
+    </div>
+    <figure class="clip"><img src="img/tr/clip_dns.webp" width="360" height="780" loading="lazy" alt="DNS dosyasıyla dönüşümün uygulamadaki görünümü"></figure>
+  </div>
+  <h3>Dönüşümün diğer yolları</h3>
+  <dl class="ways"><dt>Ortak noktalardan</dt><dd><i>Ortak noktalardan hesapla</i> ekranına Donusum_ortak_noktalar.txt satırlarını yapıştırın; Helmert ya da afin hesaplanır.</dd><dt>Matris</dt><dd><i>DNS dosyası veya matris</i> ekranına Netcad'in $AMAT satırındaki 6 sayıyı yazın.</dd><dt>7 parametre</dt><dd><i>Parametre gir</i> ile 3 ya da 7 parametre girin; koordinat çerçevesi ya da konum vektörü.</dd><dt>HGK 2011</dt><dd>Hiçbir şey seçmezseniz Türkiye geneli parametreler kullanılır (yaklaşık 1 m).</dd></dl>
+  <p class="note">Sonuç NCZ, DXF, Shapefile, GeoPackage, GeoJSON, KML ve KMZ olarak yazılabilir. NCZ çıktısında çizgiler doğru parçası, yazılar nokta adı olur; parsellerin bütün kalması için GeoPackage ya da Shapefile seçin. Dönüştürme Pro özelliğidir.</p>
+</section>
   <p class="note">Bu dosyalardaki bütün adlar, parseller, mağazalar ve ölçüler uydurmadır.</p>
 </div>
 </main>
