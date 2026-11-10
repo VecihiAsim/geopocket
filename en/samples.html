@@ -45,11 +45,11 @@
       <h3>Steps</h3>
       <ol><li>Open <b>Transform_ED50.ncz</b> in GeoPocket.</li><li>From the menu at the top right choose <i>Coordinate system › TM 3° › ED50 › 30°</i>.</li><li>Under <i>Datum transformation › DNS file or matrix › Choose DNS file</i> pick <b>Transform_ED50_ITRF96.dns</b>. It shows RMS 0.015 m and the residuals.</li><li>Tap <i>Save and use</i>, then <i>Save</i>. The transformation stays in the app for every file in that zone.</li><li>Go back, open <i>Convert</i> from the file's menu, turn on <i>Convert to ITRF96</i>, pick a format and convert.</li></ol>
     </div>
-    <figure class="clip"><img src="../img/en/clip_dns.webp" width="360" height="780" loading="lazy" alt="The DNS conversion in the app"></figure>
+    <figure class="clip"><img src="../img/en/clip_dns.webp" width="480" height="1039" loading="lazy" alt="The DNS conversion in the app"></figure>
   </div>
   <h3>Other ways to transform</h3>
   <dl class="ways"><dt>From common points</dt><dd>Paste the lines of Transform_common_points.txt into <i>Compute from common points</i>; it fits a Helmert or affine transformation.</dd><dt>Matrix</dt><dd>Type the six numbers of Netcad's $AMAT row into <i>DNS file or matrix</i>.</dd><dt>7 parameters</dt><dd>Enter 3 or 7 parameters under <i>Enter parameters</i>, coordinate frame or position vector.</dd><dt>HGK 2011</dt><dd>With nothing chosen, the nationwide parameters apply (about 1 m).</dd></dl>
-  <p class="note">The result can be written as NCZ, DXF, Shapefile, GeoPackage, GeoJSON, KML or KMZ. NCZ output stores lines as segments and texts as point names; choose GeoPackage or Shapefile to keep parcels whole. Converting is a Pro feature.</p>
+  <p class="note">The result can be written as NCZ, DXF, Shapefile, GeoPackage, GeoJSON, KML or KMZ. NCZ output stores lines as segments and texts as Netcad texts; choose GeoPackage or Shapefile to keep parcels whole. Converting is a Pro feature.</p>
 </section>
   <p class="note">All names, parcels, shops and measurements in these files are made up.</p>
 </div>
